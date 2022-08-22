@@ -1,6 +1,9 @@
+
+
 body {
-    background: gainsboro ;
+    background: rgb(0, 0, 0) ;
     margin:0px;
+    font-family: 'Roboto';
 }
 div{
     box-sizing: border-box;
@@ -16,7 +19,7 @@ header h1{
 }
 
 div.container{
-    width: 600px;
+    width: 400px;
     margin:auto;
 }
 div.post{
@@ -26,21 +29,70 @@ div.post{
 div.post img{
     width: 100%;
 }
-div.post h2, div.post p {
+div.post h2{
     padding: 10px;
+    margin: 0px;
+}
+div.post p {
+    /*padding: 3px;*/
     margin: 0px;
 }
 div.post-header{
     margin-top: 10px;
 }
 div.post .post-header div:first-child{
+    padding-left: 15px;
     display: inline-block;
-    width: 80%;
+    width: 10%;
+    padding-bottom: 20px;
+}
+div.post .post-header div:nth-child(2){
+    display: inline-block;
+    width: 70%;
 }
 div.post .post-header div:last-child{
     display: inline-block;
     width: 20%;
     text-align: right;
-    padding: 10px;
-    color: gray;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+div.post #icons div{
+    display: inline-block;
+    padding-top: 5px;
+}
+div.post #icons div:first-child{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 9%;
+}
+div.post #icons div:nth-child(2){
+    width: 7%;
+}
+div.post #icons div:nth-child(3){
+    width: 10%;
+}
+div.post #icons div:last-child{
+    float: right;
+    padding-right: 10px;
+}
+#likes{
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+#description{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#html5{
+    padding-top: 20px;
+}
+i[class*="fa-2xl"]{
+    font-size: 2.2em;
+    line-height: .03125em;
+    vertical-align: 0em;
+    padding-left: 5px
 }
